@@ -1,0 +1,16 @@
+# 基础依赖
+pandas
+tqdm
+scikit-learn
+
+# Hugging Face 生态
+torch
+transformers
+peft
+datasets
+accelerate
+bitsandbytes
+
+# 检索和向量数据库
+faiss-cpu # 或者 faiss-gpu (如果使用GPU)
+sentence-transformers # 用于自动加载 BGE
